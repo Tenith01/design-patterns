@@ -1,0 +1,21 @@
+Intent:
+
+    To create new objects by copying existing ones, rather than creating them directly.
+
+Problem:
+
+    Creating an object can be complex, expensive, or time-consuming
+    Creating an object directly, using the new keyword, can lead to tight coupling between the client code and the class of the object being created
+
+Solution:
+
+    Create a prototype object that can be used to create new objects by copying itself
+    The client code works with the prototype, rather than the class of the object being created
+    When a new object is needed, the client code asks the prototype to create a new object, rather than creating it directly using the new keyword
+
+Real-World Analogy:
+
+    Prototype pattern is similar to the blueprint of a house.
+    The blueprint contains all the necessary information to build a house,
+    including its layout, materials, and other details. The blueprint can be used to create multiple houses,
+    each of which is a copy of the blueprint.
