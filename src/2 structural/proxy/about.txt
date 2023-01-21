@@ -1,0 +1,19 @@
+Intent:
+
+    To control access to an object by providing a surrogate or placeholder for it.
+
+Problem:
+
+    There may be a need to add extra functionality when an object is accessed, or to delay the creation of an object until it is actually needed.
+
+Solution:
+
+    Create a proxy class that acts as an interface to the original object.
+    The proxy class controls access to the original object, and can add extra functionality when the original object is accessed.
+    The client code interacts with the proxy, rather than the original object.
+
+Real-World Analogy:
+
+    A proxy pattern is similar to a bouncer at a club. A bouncer controls access to the club and can check IDs, check for dress code, and so on.
+    Another example of proxy pattern in mobile application development is when a developer wants to fetch data from a remote server but wants to cache
+    the result to prevent multiple network calls. He can use a proxy class to manage the data fetching and caching process.
