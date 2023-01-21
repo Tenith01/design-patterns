@@ -1,0 +1,19 @@
+Intent:
+
+    To separate the construction of a complex object from its representation, so that the same construction process can create different representations.
+
+Problem:
+
+    Creating an object with a complex structure can be time-consuming and error-prone, especially if the object has many optional parts.
+
+Solution:
+
+    Define a separate Builder class that knows how to create a complex object, step by step
+    The client code uses the builder to create the object, rather than creating it directly
+    The client code can create different representations of the object by using different builders
+
+Real-World Analogy:
+
+    The Builder design pattern is similar to a construction foreman who knows how to build a house, step by step.
+    The client code can use the foreman to build the house, rather than building it directly.
+    The client code can also use different foremen to build different houses.
