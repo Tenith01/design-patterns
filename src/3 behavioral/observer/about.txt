@@ -1,0 +1,21 @@
+Intent:
+
+    To provide a way for objects to be notified of changes to other objects, without them being tightly coupled to each other.
+
+Problem:
+
+    When an object changes, other objects need to be notified and updated, but a tight coupling between objects would
+    make the system inflexible and hard to maintain.
+
+Solution:
+
+    Define an Observer interface with methods for attaching and detaching observers, and a method for notifying observers of changes.
+    The objects that need to be notified, called observers, attach themselves to the subject, and the subject notifies the observers when its state changes.
+
+Real-World Analogy:
+
+    A real-world example of the Observer pattern is when you are subscribed to a newspaper,
+    the newspaper is the subject and you are the observer. When the newspaper is published, it sends the newspaper to all of its subscribers.
+    Another example in mobile development is when you want to be notified when a value changes in the UserDefaults in iOS,
+    you can use an Observer pattern to create an object that will handle the notifications of the value changes.
+
