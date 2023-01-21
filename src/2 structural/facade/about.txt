@@ -1,0 +1,19 @@
+Intent:
+
+    To provide a simple and easy-to-use interface to a complex system.
+
+Problem:
+
+    A complex system can be difficult to use and understand.
+    A complex system can have many dependencies and interfaces, making it hard to implement and maintain.
+
+Solution:
+
+    Create a facade class that acts as an interface to the complex system.
+    The facade class defines a simple and easy-to-use interface that the client code can use to interact with the complex system.
+    The facade class delegates requests from the client code to the appropriate classes within the complex system.
+
+Real-World Analogy:
+
+    A facade pattern is similar to a remote control of a TV. A remote control provides a simple interface to the complex TV system,
+    allowing you to change channels, adjust the volume, and so on, without having to know how the TV works internally.
