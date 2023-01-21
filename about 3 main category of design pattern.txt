@@ -1,5 +1,13 @@
-    Creational Design Patterns: These patterns provide ways to create objects and classes. They focus on handling object creation mechanisms, trying to create objects in a manner suitable to the situation.
+    # Creational Design Patterns:
+    These patterns provide ways to create objects and classes.
+    They focus on handling object creation mechanisms, trying to create objects in a manner suitable to the situation.
 
-    Structural Design Patterns: These patterns deal with object composition to form larger structures, as well as to provide new mechanisms for objects to work together. They simplify relationships between objects, making the structure of an application more flexible.
+    # Structural Design Patterns:
+    These patterns deal with object composition to form larger structures,
+    as well as to provide new mechanisms for objects to work together. They simplify relationships between objects,
+    making the structure of an application more flexible.
 
-    Behavioral Design Patterns: These patterns focus on communication between objects. They are concerned with how classes and objects interact and operate together, what goes on between them, as well as how they operate individually.
+    # Behavioral Design Patterns:
+    These patterns focus on communication between objects.
+    They are concerned with how classes and objects interact and operate together, what goes on between them,
+    as well as how they operate individually.
