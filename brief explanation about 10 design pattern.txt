@@ -1,0 +1,29 @@
+# Singleton:
+    Ensures a class has only one instance, and provides a global access point to it.
+
+# Prototype:
+    Creates new objects by copying a prototype.
+
+# Builder:
+    Separates object construction from its representation.
+
+# Factory:
+    Creates objects without specifying their class.
+
+# Facade:
+    Provides a simplified interface to a complex system.
+
+# Proxy:
+    Provides a surrogate for another object to control access to it.
+
+# Iterator:
+    Allows traversing a container's elements without exposing its internal structure.
+
+# Observer:
+    Allows objects to be notified of changes to other objects.
+
+# Mediator:
+    Allows objects to communicate without knowing each other's identities.
+
+# State:
+    Allows an object to alter its behavior when its internal state changes.
