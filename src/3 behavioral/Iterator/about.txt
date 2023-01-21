@@ -1,0 +1,21 @@
+Intent:
+
+    To provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+Problem:
+
+    A container may have different ways of storing its elements, and you want to provide a consistent
+    way to access the elements regardless of the container's internal structure.
+
+Solution:
+
+    Define an Iterator interface with methods for traversing the elements, and make the container responsible for creating the Iterator object.
+    The client code uses the Iterator interface to traverse the elements, without needing to know the container's specific implementation.
+
+Real-World Analogy:
+
+    A real-world example of the Iterator pattern is when you're reading a book, the book is a container and the pages are
+    the elements that you want to access. The table of contents is an Iterator which allow you to traverse through the chapters and sections.
+    Another example in mobile development is when you want to traverse through a list of items in a UITableView in iOS,
+    you can use an Iterator pattern to create an object that will handle the data and the iteration through the items in the tableView.
+
